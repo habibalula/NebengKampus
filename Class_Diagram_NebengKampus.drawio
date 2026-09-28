@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Halaman-1" id="oSEYTpcz7H9RzTYZGv3u">
-    <mxGraphModel dx="1433" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="905" dy="1325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,6 +152,11 @@
         <mxCell id="sCqLqMPIF3CxZNIOEpfM-29" parent="sCqLqMPIF3CxZNIOEpfM-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;shadow=0;" value="&lt;div&gt;+ update_lokasi() : void&lt;/div&gt;&lt;div&gt;+ tampilkan_peta() : void&lt;/div&gt;&lt;div&gt;+ get_posisi_terkini() : string&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="160" y="137" as="geometry" />
         </mxCell>
+        <mxCell id="QbqYUyXA2Tr_wiJFHVCc-5" edge="1" parent="1" source="sCqLqMPIF3CxZNIOEpfM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="-87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sCqLqMPIF3CxZNIOEpfM-30" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;report&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="207" width="160" x="690" y="-50" as="geometry" />
         </mxCell>
@@ -294,6 +299,24 @@
         </mxCell>
         <mxCell id="wStumUVVI4o0HuITtL2L-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1...*" vertex="1">
           <mxGeometry height="30" width="60" x="470" y="751" as="geometry" />
+        </mxCell>
+        <mxCell id="QbqYUyXA2Tr_wiJFHVCc-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;admin&lt;/span&gt;" vertex="1">
+          <mxGeometry height="228" width="160" x="890" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="QbqYUyXA2Tr_wiJFHVCc-7" parent="QbqYUyXA2Tr_wiJFHVCc-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ admin_id&lt;div&gt;&lt;div&gt;+ password&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ nama_lengkap&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QbqYUyXA2Tr_wiJFHVCc-8" parent="QbqYUyXA2Tr_wiJFHVCc-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QbqYUyXA2Tr_wiJFHVCc-9" parent="QbqYUyXA2Tr_wiJFHVCc-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ mengecek_laporan ()&lt;div&gt;+ memblokir_pengguna ()&lt;/div&gt;&lt;div&gt;+ membekukan_pengguna&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="QbqYUyXA2Tr_wiJFHVCc-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0...*" vertex="1">
+          <mxGeometry height="30" width="60" x="846" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="QbqYUyXA2Tr_wiJFHVCc-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="920" y="-90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
