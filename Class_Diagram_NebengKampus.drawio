@@ -57,7 +57,7 @@
         <mxCell id="sCqLqMPIF3CxZNIOEpfM-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;penumpang&lt;/span&gt;" vertex="1">
           <mxGeometry height="228" width="160" x="130" y="-50" as="geometry" />
         </mxCell>
-        <mxCell id="sCqLqMPIF3CxZNIOEpfM-7" parent="sCqLqMPIF3CxZNIOEpfM-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ user_id&lt;div&gt;+ nama_lengkap&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ email&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ password&lt;/div&gt;&lt;div&gt;- no_telepon&lt;/div&gt;&lt;div&gt;+ foto_profil&lt;/div&gt;&lt;div&gt;+ jenis_kelamin&lt;/div&gt;&lt;div&gt;+ rating_penumpang&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="sCqLqMPIF3CxZNIOEpfM-7" parent="sCqLqMPIF3CxZNIOEpfM-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- user_id : int&amp;nbsp;&lt;div&gt;- nama_lengkap : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- email : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- password : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- no_telepon : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- foto_profil : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- jenis_kelamin : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- rating_penumpang : float&lt;/div&gt;" vertex="1">
           <mxGeometry height="124" width="160" y="26" as="geometry" />
         </mxCell>
         <mxCell id="sCqLqMPIF3CxZNIOEpfM-8" parent="sCqLqMPIF3CxZNIOEpfM-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
@@ -92,7 +92,7 @@
         <mxCell id="sCqLqMPIF3CxZNIOEpfM-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;driver&lt;/span&gt;" vertex="1">
           <mxGeometry height="258" width="180" x="410" y="-50" as="geometry" />
         </mxCell>
-        <mxCell id="sCqLqMPIF3CxZNIOEpfM-11" parent="sCqLqMPIF3CxZNIOEpfM-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ driver_id&lt;/div&gt;&lt;div&gt;+ nama_lengkap&lt;/div&gt;&lt;div&gt;+ email&lt;/div&gt;&lt;div&gt;+ password&lt;/div&gt;&lt;div&gt;- no_telepon&lt;/div&gt;&lt;div&gt;+ foto_profil&lt;/div&gt;&lt;div&gt;+ jenis_kelamin&lt;/div&gt;&lt;div&gt;+ rating_pengemudi&lt;/div&gt;&lt;div&gt;+ plat_nomor&lt;/div&gt;&lt;div&gt;+ foto_kendaraan&lt;/div&gt;" vertex="1">
+        <mxCell id="sCqLqMPIF3CxZNIOEpfM-11" parent="sCqLqMPIF3CxZNIOEpfM-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- driver_id : int&amp;nbsp;&lt;div&gt;- nama_lengkap : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- email : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- password : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- no_telepon : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- foto_profil : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- jenis_kelamin : string&lt;/div&gt;&lt;div&gt;- rating_pengemudi : float&amp;nbsp;&lt;/div&gt;&lt;div&gt;- plat_nomor : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- foto_kendaraan : string&lt;/div&gt;" vertex="1">
           <mxGeometry height="154" width="180" y="26" as="geometry" />
         </mxCell>
         <mxCell id="sCqLqMPIF3CxZNIOEpfM-12" parent="sCqLqMPIF3CxZNIOEpfM-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
@@ -307,7 +307,7 @@
           <mxGeometry height="30" width="60" x="470" y="751" as="geometry" />
         </mxCell>
         <mxCell id="QbqYUyXA2Tr_wiJFHVCc-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;admin&lt;/span&gt;" vertex="1">
-          <mxGeometry height="228" width="160" x="890" y="-320" as="geometry" />
+          <mxGeometry height="228" width="160" x="890" y="-300" as="geometry" />
         </mxCell>
         <mxCell id="QbqYUyXA2Tr_wiJFHVCc-7" parent="QbqYUyXA2Tr_wiJFHVCc-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ admin_id&lt;div&gt;&lt;div&gt;+ password&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ nama_lengkap&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="124" width="160" y="26" as="geometry" />
@@ -322,10 +322,10 @@
           <mxGeometry height="30" width="60" x="846" y="24" as="geometry" />
         </mxCell>
         <mxCell id="QbqYUyXA2Tr_wiJFHVCc-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
-          <mxGeometry height="30" width="60" x="920" y="-92" as="geometry" />
+          <mxGeometry height="30" width="60" x="925" y="-73" as="geometry" />
         </mxCell>
         <mxCell id="QbqYUyXA2Tr_wiJFHVCc-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
-          <mxGeometry height="30" width="60" x="846" y="-230" as="geometry" />
+          <mxGeometry height="30" width="60" x="843" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="QbqYUyXA2Tr_wiJFHVCc-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
           <mxGeometry height="30" width="60" x="275" y="-210" as="geometry" />
