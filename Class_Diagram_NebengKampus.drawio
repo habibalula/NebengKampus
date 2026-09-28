@@ -155,8 +155,11 @@
         <mxCell id="sCqLqMPIF3CxZNIOEpfM-29" parent="sCqLqMPIF3CxZNIOEpfM-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;shadow=0;" value="&lt;div&gt;+ update_lokasi() : void&lt;/div&gt;&lt;div&gt;+ tampilkan_peta() : void&lt;/div&gt;&lt;div&gt;+ get_posisi_terkini() : string&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="160" y="137" as="geometry" />
         </mxCell>
-        <mxCell id="QbqYUyXA2Tr_wiJFHVCc-5" edge="1" parent="1" source="sCqLqMPIF3CxZNIOEpfM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" value="">
+        <mxCell id="QbqYUyXA2Tr_wiJFHVCc-5" edge="1" parent="1" source="sCqLqMPIF3CxZNIOEpfM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QbqYUyXA2Tr_wiJFHVCc-6" value="">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970.05" y="53.53" />
+            </Array>
             <mxPoint x="970" y="-87" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -319,7 +322,7 @@
           <mxGeometry height="30" width="60" x="846" y="24" as="geometry" />
         </mxCell>
         <mxCell id="QbqYUyXA2Tr_wiJFHVCc-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
-          <mxGeometry height="30" width="60" x="920" y="-90" as="geometry" />
+          <mxGeometry height="30" width="60" x="920" y="-92" as="geometry" />
         </mxCell>
         <mxCell id="QbqYUyXA2Tr_wiJFHVCc-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
           <mxGeometry height="30" width="60" x="846" y="-230" as="geometry" />
